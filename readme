@@ -9,6 +9,8 @@ Write "python plotfile.py" ín the terminal to generate plots from the existing 
 Makefile
 Each project folder contains a makefile. 
 write "make" in the terminal to compile and run the given project.
+papi assumes the following path for /home/jacob/Desktop/papi-5.5.1/src/libpapi.a in the make file and as such this line must be 
+changed to where ones installation of papi is located.
 
 Tweak parameters
 For project 1 the parameters n(inputsize), iterations and multfactor can be changed in main.cpp to experiment with different run configurations.
