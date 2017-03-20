@@ -1,0 +1,15 @@
+run.sh
+To compile, run and generate plots for a specific project.
+Write "./run.sh project1" in the terminal to run project 1.
+
+plotfile.py
+Each project folder contains a plotfile. 
+Write "python plotfile.py" ín the terminal to generate plots from the existing data contained in the data folder
+
+Makefile
+Each project folder contains a makefile. 
+write "make" in the terminal to compile and run the given project.
+
+Tweak parameters
+For project 1 the parameters n(inputsize), iterations and multfactor can be changed in main.cpp to experiment with different run configurations.
+For project 2 and 3 the same parameters can be changed in the file util.cpp
